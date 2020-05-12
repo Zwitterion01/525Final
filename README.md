@@ -20,7 +20,7 @@ be an initial step for further analysis so other data analysts or anyone who int
 Twitter data could either use our outcome application for data filtering and selection or
 embed our code as SDK to their own project.
 
-### Tweets News Format
+### Tweets News Format sample
 ![json format](IR1.PNG)
 ### Jekyll Themes
 
