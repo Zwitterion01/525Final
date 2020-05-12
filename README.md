@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to Tweet News Recommender Project
 
 You can use the [editor on GitHub](https://github.com/Zwitterion01/525Final/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
