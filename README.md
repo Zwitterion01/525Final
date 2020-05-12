@@ -1,5 +1,8 @@
 ## Welcome to Tweet News Recommender Project
 
+
+### Introduction
+
 Recently Twitter becomes one of the most popular social media where lots of organizations
 publish their news. By analyzing these news, one can obtain valuable data about political,
 economic or entertainment trends which stimulate both industry and academic people to
@@ -17,9 +20,8 @@ be an initial step for further analysis so other data analysts or anyone who int
 Twitter data could either use our outcome application for data filtering and selection or
 embed our code as SDK to their own project.
 
-### Markdown
+### Tweets News Format
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
 Syntax highlighted code block
