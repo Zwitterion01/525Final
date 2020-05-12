@@ -34,3 +34,8 @@ Cosine similarity is a measure of similarity between two non-zero vectors of an 
 <br>In our case, we use scikit-learn package to handle the document vectorazation and Consine Similarity calculation.
 #### Consine Similarity Calculation
 ![json format](recommend.PNG)
+### FrontEnd User Interface
+![json format](frontUI.PNG)
+
+
+
