@@ -24,7 +24,16 @@ class Recommender:
     def return_results(self):
         self.__compute_score()
         self.results = sorted(self.results, key = lambda i: i['sim_score'], reverse=True)
+        for re in self.results:
+          re['category']=re['content']['category']
+          re['headline']=re['content']['category']
+          re['authors'] = re['content']['authors']
+          re['link'] = re['content']['link']
+          re['short_description'] = re['content']['short_description']
+          re['date'] = re['content']['date']
+          re.pop('content')
         return self.results[:10]
+
 
 
 
