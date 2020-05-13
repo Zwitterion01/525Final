@@ -21,6 +21,7 @@ Twitter data could either use our outcome application for data filtering and sel
 embed our code as SDK to their own project.
 
 ### Tweets News Format Sample
+The tweets dataset comes from News Category Dataset: [https://www.kaggle.com/rmisra/news-category-dataset](https://www.kaggle.com/rmisra/news-category-dataset)
 ![json format](IR1.PNG)
 ### Classifier Algorithm: Support Vector Machine(SVM)
 In machine learning, support-vector machines (SVMs, also support-vector networks) are supervised learning models with associated learning algorithms that analyze data used for classification and regression analysis. Given a set of training examples, each marked as belonging to one or the other of two categories, an SVM training algorithm builds a model that assigns new examples to one category or the other, making it a non-probabilistic binary linear classifier (although methods such as Platt scaling exist to use SVM in a probabilistic classification setting). An SVM model is a representation of the examples as points in space, mapped so that the examples of the separate categories are divided by a clear gap that is as wide as possible. New examples are then mapped into that same space and predicted to belong to a category based on the side of the gap on which they fall.[More Detailed](https://en.wikipedia.org/wiki/Support-vector_machine)
@@ -34,15 +35,15 @@ Cosine similarity is a measure of similarity between two non-zero vectors of an 
 <br>In our case, we use scikit-learn package to handle the document vectorazation and Consine Similarity calculation.
 #### Consine Similarity Calculation
 ![json format](recommend.PNG)
-### FrontEnd User Interface
+### FrontEnd User Interface and Use Case
 Here is the home page of the application. There's a button called Tweet where you can use to key in the headline and description to move to the next step. 
 <img src="home.jpg" width="400" height="250">
 <br>Here as an example we give the headline as pizza and the description as hamburger. 
 <p align="center">
 <img src="query.jpg" width="400" height="250"></p>
-<br>After we click submit. The page will be like the following.
+<br>After we click submit. The page will give 10 top most related same category news tweets be like the following.
 <p align="center">
-<img src="output.png" width="400" height="250"></p>
+<img src="output.png" width="400" height="280"></p>
 
 ### How to run the whole thing
-
+Run the server.py in the project to make the classifier and recommender ready in the back end. Then you can open the html web and follow the use case tutorial.
