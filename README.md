@@ -37,5 +37,5 @@ Cosine similarity is a measure of similarity between two non-zero vectors of an 
 ### FrontEnd User Interface
 ![json format](frontUI.PNG)
 
-
+### How to run the whole thing
 
