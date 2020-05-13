@@ -35,7 +35,14 @@ Cosine similarity is a measure of similarity between two non-zero vectors of an 
 #### Consine Similarity Calculation
 ![json format](recommend.PNG)
 ### FrontEnd User Interface
-![json format](frontUI.PNG)
+Here is the home page of the application. There's a button called Tweet where you can use to key in the headline and description to move to the next step. 
+<img src="home.jpg" width="400" height="250">
+<br>Here as an example we give the headline as pizza and the description as hamburger. 
+<p align="center">
+<img src="query.jpg" width="400" height="250"></p>
+<br>After we click submit. The page will be like the following.
+<p align="center">
+<img src="output.png" width="400" height="250"></p>
 
 ### How to run the whole thing
 
