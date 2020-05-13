@@ -1,4 +1,5 @@
 from flask import Flask
+from flask_cors import CORS
 from flask import jsonify
 from flask import request
 from recommender import Recommender
@@ -8,6 +9,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 import numpy as np
 
 app = Flask(__name__)
+CORS(app)
 categories = ['ENTERTAINMENT', 'FOOD & DRINK', 'POLITICS', 'STYLE & BEAUTY', 'TECH']
 tweets = []
 with open('data.json') as f:
@@ -40,7 +42,8 @@ def process():
     category = categories[index]
     r = Recommender(query, dataset[category])
     results = r.return_results()
-    #category_index = 
+    #category_index =
+    print(results)
     return jsonify(results), 200
 
 @app.route('/workload/<count>')
