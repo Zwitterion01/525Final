@@ -26,7 +26,7 @@ class Recommender:
         self.results = sorted(self.results, key = lambda i: i['sim_score'], reverse=True)
         for re in self.results:
           re['category']=re['content']['category']
-          re['headline']=re['content']['category']
+          re['headline']=re['content']['headline']
           re['authors'] = re['content']['authors']
           re['link'] = re['content']['link']
           re['short_description'] = re['content']['short_description']
