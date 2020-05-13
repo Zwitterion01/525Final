@@ -37,7 +37,8 @@ Cosine similarity is a measure of similarity between two non-zero vectors of an 
 ![json format](recommend.PNG)
 ### FrontEnd User Interface and Use Case
 Here is the home page of the application. There's a button called Tweet where you can use to key in the headline and description to move to the next step. 
-<img src="home.jpg" width="400" height="250">
+<p align="center">
+<img src="home.jpg" width="400" height="280"></p>
 <br>Here as an example we give the headline as pizza and the description as hamburger. 
 <p align="center">
 <img src="query.jpg" width="400" height="250"></p>
